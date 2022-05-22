@@ -1,5 +1,4 @@
-from turtle import width
-from numpy import diff
+#importar librerias
 import streamlit as st
 import pickle
 import pandas as pd
