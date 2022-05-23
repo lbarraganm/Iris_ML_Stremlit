@@ -2,7 +2,7 @@ sklearn
 gender-guesser==0.4.0
 matplotlib
 streamlit
-numpy==1.18.5
+numpy==1.22.4
 pandas
 xmltodict
 urllib3
