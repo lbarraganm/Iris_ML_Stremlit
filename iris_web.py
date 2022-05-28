@@ -69,11 +69,7 @@ def main ():
     df= user_imput_parameters()
 
     option = ['Linear Rregression', 'Logistic Regression', 'SVM']
-<<<<<<< HEAD
     model = st.sidebar.selectbox('Which ML model you like to use?', option)
-=======
-    model = st.sidebar.selectbox('Which model ML you like to use? ', option)
->>>>>>> 5177ab6e8c946f0de61a9dab57a09976f1c69b23
 
     st.subheader('👉 User Imput Parameters:')
     st.subheader(model)
@@ -102,11 +98,7 @@ def main ():
 row1_spacer1, row1_1, row1_spacer2 = st.columns((.1, 3.2, .1))
 
 with row1_1:
-<<<<<<< HEAD
-    st.markdown("Welcome to Tyler's template Goodreads Analysis App. This web App scrapes (and never keeps or stores!) the books you've read and analyzes data about your book list, including estimating the gender breakdown of the authors, and looking at the distribution of the age and length of book you read. After some nice graphs, it tries to recommend a curated book list to you from a famous public reader, like Barack Obama or Bill Gates. One last tip, if you're on a mobile device, switch over to landscape for viewing ease. Give it a go!")
-=======
-    st.markdown("Welcome to Tyler's Goodreads Analysis App. This app scrapes (and never keeps or stores!) the books you've read and analyzes data about your book list, including estimating the gender breakdown of the authors, and looking at the distribution of the age and length of book you read. After some nice graphs, it tries to recommend a curated book list to you from a famous public reader, like Barack Obama or Bill Gates. One last tip, if you're on a mobile device, switch over to landscape for viewing ease. Give it a go!")
->>>>>>> 5177ab6e8c946f0de61a9dab57a09976f1c69b23
+    st.markdown("Welcome to Tyler's template Goodreads Analysis App. This web App scrapes the books you've read and analyzes data about your book list, including estimating the gender breakdown of the authors, and looking at the distribution of the age and length of book you read. After some nice graphs, it tries to recommend a curated book list to you from a famous public reader, like Barack Obama or Bill Gates. One last tip, if you're on a mobile device, switch over to landscape for viewing ease. Give it a go!")
     st.markdown(
         "**To begin, please enter the link to your [Goodreads profile](https://www.goodreads.com/) (or just use mine!).** 👇")
 
