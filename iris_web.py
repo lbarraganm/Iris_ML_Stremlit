@@ -50,7 +50,7 @@ def main ():
 
     matplotlib.use("agg")
     
-    st.title('Mi primer modelado de ML con Iris by @Sebas_Barragan')
+    st.title('Mi primer modelado ML con StreamLit by @Sebas_Barragan')
     st.sidebar.header('User imput Parameters')
 
     def user_imput_parameters():
