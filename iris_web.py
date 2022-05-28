@@ -87,7 +87,7 @@ def main ():
     row0_spacer1, row0_1, row0_spacer2, row0_2, row0_spacer3 = st.columns(
     (.1, 2, .2, 1, .1))
 
-    row0_1.title('Analyzing Your Goodreads Reading Habits with StreamLit')
+    row0_1.title('Analyzing Your Goodreads Reading Habits with Streamlit')
 
     with row0_2:
         st.write('')
