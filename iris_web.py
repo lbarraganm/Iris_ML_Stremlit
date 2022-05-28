@@ -71,7 +71,7 @@ def main ():
     option = ['Linear Rregression', 'Logistic Regression', 'SVM']
     model = st.sidebar.selectbox('Which model ML you like to use? ', option)
 
-    st.subheader('User Imput Parameters')
+    st.subheader('👉 User Imput Parameters:')
     st.subheader(model)
     st.write(df)
     
