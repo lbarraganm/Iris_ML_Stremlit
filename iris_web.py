@@ -69,7 +69,7 @@ def main ():
     df= user_imput_parameters()
 
     option = ['Linear Rregression', 'Logistic Regression', 'SVM']
-    model = st.sidebar.selectbox('which model you like to use? irina', option)
+    model = st.sidebar.selectbox('Which model ML you like to use? ', option)
 
     st.subheader('User Imput Parameters')
     st.subheader(model)
